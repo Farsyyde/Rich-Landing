@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f1e13;
+  color: #f2f2f2;
+}
+header {
+  background-color: #1a3a23;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+header p {
+  font-size: 1.2rem;
+}
+.btn {
+  display: inline-block;
+  background-color: #27c275;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+.section {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section h2 {
+  color: #27c275;
+}
+.highlight {
+  background-color: #162a1c;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #1a3a23;
+  color: #aaa;
+}
+.meme-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
