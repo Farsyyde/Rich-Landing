@@ -66,7 +66,7 @@ footer {
   content: "";
   background: url('images/RICH-MASCOT.png') no-repeat center center;
   background-size: 600px;
-  opacity: 0.09;
+  opacity: 0.5;
   position: fixed;
   top: 0;
   left: 0;
