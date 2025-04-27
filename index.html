@@ -136,8 +136,6 @@
 </div>
 </section>
 
-
-
   <footer>
     <p>Powered by holders like you. Not financial advice — just meme-fueled possibilities.</p>
   </footer>
@@ -145,5 +143,13 @@
   <button onclick="scrollToSection('how-to-buy')">💸 How to Buy</button>
   <button onclick="scrollToSection('how-to-stake')">🧠 How to Stake</button>
 </div>
+  <script>
+  function scrollToSection(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
 </body>
 </html>
